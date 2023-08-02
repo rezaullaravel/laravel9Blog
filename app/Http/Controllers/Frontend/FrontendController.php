@@ -17,7 +17,7 @@ class FrontendController extends Controller
 {
     //frontend home page
     public function index(){
-        return view('frontend.home.index');
+        return view('livewire.home');
     }//end method
 
 
